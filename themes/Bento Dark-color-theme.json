@@ -1,0 +1,393 @@
+{
+    "name": "Bento Dark",
+    "type": "dark",
+    "colors": {
+        "editor.background": "#2B2B2B",
+        "editorCursor.foreground": "#FFFFFF",
+        "editor.foreground": "#dbdbdb",
+        "editorWhitespace.foreground": "#404040",
+        "editor.lineHighlightBackground": "#333435",
+        "editor.selectionBackground": "#5A647EE0",
+        "editorWarning.foreground": "#cccc0c",
+        "editorWarning.border": "#eeee0500",
+        "editorInfo.foreground": "#4093ff",
+        "editorError.foreground": "#c21c1c"
+    },
+    "tokenColors": [
+        {
+            "name": "Base",
+            "scope": ["source"],
+            "settings": {
+                "foreground": "#D0D0FF"
+            }
+        },
+        {
+            "name": "Language Control Keywords",
+            "scope": ["keyword.control", "storage.modifier", "keyword.operator.expression.delete"],
+            "settings": {
+                "foreground": "#CC7833",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "Type definitions (const, let, class, interface, enum, type)",
+            "scope": ["storage.type"],
+            "settings": {
+                "foreground": "#fa7d4c",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Operators",
+            "scope": ["keyword.operator"],
+            "settings": {
+                "foreground": "#fa7d4c"
+            }
+        },
+        {
+            "name": "Object keys",
+            "scope": ["meta.object.member meta.object-literal.key"],
+            "settings": {
+                "foreground": "#FFC66D"
+            }
+        },
+        {
+            "name": "Object properties",
+            "scope": [
+                "meta.object.member variable.other.property",
+                "meta.object.member support.variable.property.dom",
+                "meta.var.expr variable.other.property",
+                "meta.var.expr support.variable.property.dom",
+                "meta.method.declaration variable.other.property",
+                "meta.method.declaration support.variable.property.dom",
+                "meta.embedded.expression variable.other.property",
+                "meta.embedded.expression support.variable.property.dom"
+            ],
+            "settings": {
+                "foreground": "#D0D0FF"
+            }
+        },
+        {
+            "name": "JSX attribute values",
+            "scope": [
+                "meta.embedded.expression variable.other.object",
+                "meta.embedded.expression variable.other.readwrite"
+            ],
+            "settings": {
+                "foreground": "#D0D0FF"
+            }
+        },
+        {
+            "name": "Object Types",
+            "scope": ["entity.name.type"],
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        },
+        {
+            "name": "Type annotations",
+            "scope": [
+                "meta.type.annotation",
+                "storage.type.c",
+                "meta.type.parameters support.type",
+                "meta.type.declaration support.type",
+                "meta.object.member support.type",
+            ],
+            "settings": {
+                "foreground": "#6E9CBE",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Object Type annotations",
+            "scope": ["meta.type.annotation entity.name.type", "meta.type.parameters entity.name.type"],
+            "settings": {
+                "foreground": "#6E9CBE",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "Function params on Type annotations",
+            "scope": ["meta.type.annotation variable.parameter"],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Constants",
+            "scope": [
+                "variable.other.constant",
+                "meta.enum.declaration variable.other.enummember",
+                "constant.other.caps",
+                "entity.name.function.preprocessor"
+            ],
+            "settings": {
+                "foreground": "#DA4939"
+            }
+        },
+        {
+            "name": "Language constants",
+            "scope": ["constant.language"],
+            "settings": {
+                "foreground": "#5096ff",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Numbers",
+            "scope": ["constant.numeric"],
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        },
+        {
+            "name": "This",
+            "scope": ["variable.language.this"],
+            "settings": {
+                "foreground": "#b47bff",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Super",
+            "scope": ["variable.language.super"],
+            "settings": {
+                "foreground": "#DA4939",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "Function calls",
+            "scope": [
+                "meta.function-call entity.name.function",
+                "meta.function-call support.function",
+                "meta.function-call.generic.python"
+            ],
+            "settings": {
+                "foreground": "#DA4939",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Promise chains",
+            "scope": ["meta.function-call support.function.promise"],
+            "settings": {
+                "foreground": "#DA4939",
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "Strings",
+            "scope": ["string"],
+            "settings": {
+                "foreground": "#A5C261"
+            }
+        },
+        {
+            "name": "Variables expression in string templates",
+            "scope": ["meta.template.expression"],
+            "settings": {
+                "foreground": "#CC7833"
+            }
+        },
+        {
+            "name": "Variables within template expression",
+            "scope": ["meta.template.expression variable.other"],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#D0D0FF"
+            }
+        },
+        {
+            "name": "Entity names",
+            "scope": [
+                "entity.name.type.class",
+                "entity.name.type.interface",
+                "entity.name.type.enum",
+                "entity.other.inherited-class"
+            ],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "Type definition",
+            "scope": ["meta.definition.property", "meta.definition.method"],
+            "settings": {
+                "foreground": "#FFC66D"
+            }
+        },
+        {
+            "name": "HTML tag content",
+            "scope": ["meta.tag"],
+            "settings": {
+                "foreground": "#FFC66D"
+            }
+        },
+        {
+            "name": "HTML tags",
+            "scope": ["entity.name.tag"],
+            "settings": {
+                "foreground": "#FFFFFF"
+            }
+        },
+        {
+            "name": "JSX components",
+            "scope": ["support.class.component"],
+            "settings": {
+                "foreground": "#FFFFFF",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "HTML attributes",
+            "scope": ["entity.other.attribute-name"],
+            "settings": {
+                "foreground": "#FFC66D"
+            }
+        },
+        {
+            "name": "Comments",
+            "scope": ["comment"],
+            "settings": {
+                "foreground": "#967363",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Square brackets",
+            "scope": ["meta.brace.square"],
+            "settings": {
+                "foreground": "#FFC66D"
+            }
+        },
+        {
+            "name": "Curly brackets",
+            "scope": ["punctuation.definition.block"],
+            "settings": {
+                "foreground": "#FFC66D"
+            }
+        },
+        {
+            "name": "Parenthesis",
+            "scope": ["punctuation.definition.parameters", "meta.brace.round"],
+            "settings": {
+                "foreground": "#ffffff"
+            }
+        },
+        {
+            "scope": "token.info-token",
+            "settings": {
+                "foreground": "#6796e6"
+            }
+        },
+        {
+            "scope": "token.warn-token",
+            "settings": {
+                "foreground": "#cd9731"
+            }
+        },
+        {
+            "scope": "token.error-token",
+            "settings": {
+                "foreground": "#f44747"
+            }
+        },
+        {
+            "scope": "token.debug-token",
+            "settings": {
+                "foreground": "#b267e6"
+            }
+        },
+
+        {
+            "name": "JSON keys",
+            "scope": ["meta.structure.dictionary.value.json string"],
+            "settings": {
+                "foreground": "#D0D0FF"
+            }
+        },
+        {
+            "name": "JSON values",
+            "scope": ["meta.structure.dictionary.value.json string support.type.property-name.json"],
+            "settings": {
+                "foreground": "#A5C261"
+            }
+        },
+
+        {
+            "name": "CSS classes",
+            "scope": ["source.css entity.other.attribute-name", "source.css meta.at-rule"],
+            "settings": {
+                "foreground": "#CC7833"
+            }
+        },
+        {
+            "name": "CSS @rule",
+            "scope": ["source.css meta.at-rule keyword.control"],
+            "settings": {
+                "fontStyle": "italic bold"
+            }
+        },
+        {
+            "name": "CSS @rule value",
+            "scope": ["source.css meta.at-rule entity.name", "source.css meta.at-rule.extend"],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "CSS tags",
+            "scope": ["source.css entity.name.tag"],
+            "settings": {
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "CSS attributes",
+            "scope": ["source.css support.type.property-name", "source.css support.type.vendored.property-name"],
+            "settings": {
+                "foreground": "#6E9CBE"
+            }
+        },
+        {
+            "name": "CSS value: variable",
+            "scope": ["source.css meta.property-value variable", "source.css meta.definition.variable variable"],
+            "settings": {
+                "foreground": "#b47bff",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "CSS value: unit",
+            "scope": [
+                "source.css meta.property-value keyword.other.unit",
+                "source.css meta.definition.variable keyword.other.unit"
+            ],
+            "settings": {
+                "foreground": "#CC7833"
+            }
+        },
+        {
+            "name": "CSS value: property",
+            "scope": [
+                "source.css meta.property-value support.constant",
+                "source.css meta.property-value support.function",
+                "source.css meta.property-value constant",
+                "source.css meta.definition.variable support.constant",
+                "source.css meta.definition.variable support.function",
+                "source.css meta.definition.variable constant"
+            ],
+            "settings": {
+                "foreground": "#A5C261"
+            }
+        },
+        {
+            "name": "CSS value: important",
+            "scope": ["source.css meta.property-value keyword.other.important"],
+            "settings": {
+                "foreground": "#DA4939"
+            }
+        }
+    ]
+}

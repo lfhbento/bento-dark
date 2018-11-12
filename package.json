@@ -1,0 +1,22 @@
+{
+    "name": "bento-dark",
+    "displayName": "Bento Dark",
+    "description": "Dark theme with support for Dank Mono font",
+    "version": "0.0.1",
+    "publisher": "lfhbento",
+    "engines": {
+        "vscode": "^1.28.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Bento Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Bento Dark-color-theme.json"
+            }
+        ]
+    }
+}
