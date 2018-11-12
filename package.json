@@ -18,5 +18,9 @@
                 "path": "./themes/Bento Dark-color-theme.json"
             }
         ]
+    },
+    "repository": {
+        "type": "github",
+        "url": "https://github.com/lfhbento/bento-dark"
     }
 }
