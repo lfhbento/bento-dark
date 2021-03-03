@@ -2,7 +2,7 @@
     "name": "bento-dark",
     "displayName": "Bento Dark",
     "description": "Dark theme with support for Dank Mono font",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "lfhbento",
     "engines": {
         "vscode": "^1.28.0"
